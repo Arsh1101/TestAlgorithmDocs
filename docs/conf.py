@@ -14,12 +14,13 @@ release = '1.0.2'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['sphinx_tabs.tabs']
+# extensions = ['sphinx_tabs.tabs']
+extensions = []
 
 #Arsh
-sphinx_tabs_valid_builders = ['linkcheck']
-sphinx_tabs_disable_tab_closing = True
-sphinx_tabs_disable_css_loading = True
+# sphinx_tabs_valid_builders = ['linkcheck']
+# sphinx_tabs_disable_tab_closing = True
+# sphinx_tabs_disable_css_loading = True
 
 
 templates_path = ['_templates']
